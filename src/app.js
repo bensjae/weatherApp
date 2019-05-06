@@ -23,7 +23,7 @@ app.use(express.static(publicDir))
 app.get('', (req, res) => {
     //from views folder
     res.render('index', {
-        title: 'Weather App in progress',
+        title: 'Simple Weather App',
         author: 'Ben'
     })
 })
